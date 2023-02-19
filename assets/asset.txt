@@ -1,0 +1,17 @@
+search icon - <i class="fa-solid fa-magnifying-glass"></i>
+play icon - <i class="fa-solid fa-play"></i>
+info icon - <i class="fa-regular fa-circle-info"></i>
+close icon - <i class="fa-solid fa-circle-xmark"></i>
+user icon - <i class="fa-regular fa-circle-user"></i>
+notification icon - <i class="fa-regular fa-bell"></i>
+
+colors
+not Pure black - #111111
+dark grey - #2f2f2f
+grey - #a0a0a0
+light grey - #eBeBeB
+not pure white - #fdfdfd
+orange - #ed6807
+off-white - #e0dad4
+
+font - Poppins
