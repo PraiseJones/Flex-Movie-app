@@ -4,6 +4,12 @@ info icon - <i class="fa-regular fa-circle-info"></i>
 close icon - <i class="fa-solid fa-circle-xmark"></i>
 user icon - <i class="fa-regular fa-circle-user"></i>
 notification icon - <i class="fa-regular fa-bell"></i>
+<i class="fa-solid fa-right-to-bracket"></i>
+download - <i class="fa-solid fa-arrow-down-to-bracket"></i> 
+add icon - <i class="fa-regular fa-circle-plus"></i>
+caption icon - <i class="fa-solid fa-closed-captioning"></i>
+no caption icon - <i class="fa-solid fa-closed-captioning-slash"></i>
+next icon - <i class="fa-solid fa-forward-step"></i>
 
 colors
 not Pure black - #111111

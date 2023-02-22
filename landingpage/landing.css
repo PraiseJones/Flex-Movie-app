@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+:root {
+    --offwhiteblur: rgba(250, 249, 246, 0.1);
+    --orange: #ed6807;
+    --notPureblack: #111111;
+    --darkgrey: #2f2f2f;
+    --grey: #a0a0a0;
+    --lightgrey: #eBeBeB;
+    --notpurewhite: #fdfdfd;
+}
+
+.container {
+    background-image: url(/assets/movies/bb8.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+div h1{
+    color: var(--orange);
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--offwhiteblur);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 7px;
+}
+
+li {
+    margin: 0 13px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    color: var(--notPureblack);
+}
+
+a:hover {
+    color: var(--orange);
+    padding: 2px;
+    font-size: 13px;
+}
+
+a:focus-visible{
+    color: var(--orange);
+}
+
+.search {
+    background-color: var(--offwhiteblur);
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.search:hover{
+    padding: 20px;
+}
+
+.profile {
+    background-color: var(--offwhiteblur);
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 40px; 
+    cursor: pointer;
+}
+
+.cardcontain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Trend {
+    margin-left: 30px;
+}
+
+.topt {
+    font-size: 9px;
+    background-color: var(--orange);
+    color: var(--notPureblack);
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin: 0 8px;
+    font-weight: 900;
+}
+
+.tOne {
+    color: var(--orange);
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.pOne {
+    color: var(--notpurewhite);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.moviename {
+    color: var(--notpurewhite);
+    font-size: 70px;
+    line-height: 60px;
+    font-weight: bolder;
+    margin-bottom: 19px;
+}
+
+.actionbtn {
+    display: flex;
+    align-items: center;
+}
+
+.playbtn {
+    background: var(--offwhiteblur);
+    border-radius: 25px;
+    padding: 7px;
+    width: 78px;
+    height: 30px;
+    color: var(--notpurewhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbtn p {
+    font-weight: 600;
+}
+
+.seebtn {
+    background: var(--offwhiteblur);
+    border-radius: 25px;
+    padding: 7px;
+    margin-left: 19px;
+    width: 97px;
+    height: 30px;
+    color: var(--notpurewhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 34px 67px;
+}
+
+.resume h2 {
+    color: var(--notpurewhite);
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.resume div {
+    width: 135px;
+    height: 80px;
+    background-color: var(--notpurewhite);
+    margin-bottom: 14px;
+    border-radius: 12px;
+}
+
+.cardone {
+    background-image: url(/assets/movies/spidey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardtwo {
+    background-image: url(/assets/movies/wakanda\ forever.jpg);
+    background-size: cover;
+}
+.cardthree {
+    background-image: url(/assets/movies/quantumania.jpg);
+    background-size: cover;
+}
+
+
+.trendlists h3 {
+    color: var(--notpurewhite);
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+
+.trendlists {
+    margin-left: 30px;
+}
+
+.scrollcards {
+    display: flex;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+}
+
+
+.cards {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 200px;
+    height: 104px;
+    background-color: var(--orange);
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.one {
+    background-image: url(/assets/movies/avatar.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.two {
+    background-image: url(/assets/movies/desktop-wallpaper-star-wars-the-last-jedi-bb-8-movies.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.three {
+    background-image: url(/assets/movies/spideytwo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.four {
+    background-image: url(/assets/movies/quantumania.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.five {
+    background-image: url(/assets/movies/wakanda\ forever.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.six {
+    background-image: url(/assets/movies/spidey.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.seven {
+    background-image: url(/assets/movies/avatar.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.containertwo {
+    background-color: rgb(1, 1, 43);
+    width: 100%;
+    height: 100vh;
+}
